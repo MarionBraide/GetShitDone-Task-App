@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import AppHeader from './components/AppHeader.vue'
-import TaskInput from './components/TaskInput.vue'
+import AddTask from './components/AddTask.vue'
 import TaskItem  from './components/TaskItem.vue'
 
 const tasks = ref([])
