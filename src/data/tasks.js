@@ -1,19 +1,4 @@
-// ─────────────────────────────────────────────────────────────
-// src/data/tasks.js — CLASS ACTIVITY FILE
-//
-// Each student adds ONE sheet object to the sheets array below.
-// Follow the format exactly.
-//
-// FORMAT:
-// {
-//   id: 2,                        ← increment by 1
-//   name: "Your Sheet Name",      ← name of your task sheet
-//   addedBy: "GitHubUsername",    ← your GitHub username
-//   tasks: [
-//     { id: 1, text: "Your task", done: false }
-//   ]
-// }
-// ─────────────────────────────────────────────────────────────
+
 
 export const initialSheets = [
   {
