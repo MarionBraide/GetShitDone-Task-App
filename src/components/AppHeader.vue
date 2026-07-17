@@ -1,5 +1,5 @@
 <script setup>
-import AISummary from './components/AISummary.vue'
+import AISummary from './AISummary.vue'
 </script>
 
 <template>
