@@ -1,10 +1,11 @@
 <script setup>
-// CONCEPTS: scoped styles, static component
+import AISummary from './components/AISummary.vue'
 </script>
 
 <template>
   <header class="header">
     <span class="logo">Get Sh*t Done</span>
+    <AISummary :tasks="tasks" />
   </header>
 </template>
 
