@@ -36,11 +36,11 @@ async function summarise() {
         {
           role: 'user',
           content: `
-            Here is someone's task list:
+            Here is user's task list:
             ${taskList}
 
             Write a single short paragraph (2-3 sentences max) summarising
-            what they are working on today. The first sentence should mention how many tasks are pending
+            what the user is working on today. The first sentence should mention how many tasks are pending
             versus done. The next sentence should highlight what task is priority based on the date and time
             it was created(older tasks get more priority). Keep the tone casual and encouraging.
             Plain paragraph only, no bullet points.
