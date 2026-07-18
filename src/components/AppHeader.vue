@@ -1,11 +1,9 @@
 <script setup>
-import AISummary from './AISummary.vue'
 </script>
 
 <template>
   <header class="header">
     <span class="logo">Get Sh*t Done</span>
-    <AISummary :tasks="tasks" />
   </header>
 </template>
 

@@ -1,4 +1,7 @@
+
+
 <script setup>
+import AISummary from './AISummary.vue'
 // ─────────────────────────────────────────────────────────────
 // TaskBoard.vue — ACTIVE SHEET'S TASK AREA
 //
@@ -48,6 +51,8 @@ const doneTasks    = computed(() => props.sheet?.tasks.filter(t =>  t.done) ?? [
       <h1 class="sheet-title">{{ sheet.name }}</h1>
       <span class="sheet-by">by @{{ sheet.addedBy }}</span>
     </div>
+
+    <AISummary :tasks="sheet.tasks" />
 
     <!-- Add task input -->
     <div class="add-row">
